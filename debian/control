@@ -1,0 +1,12 @@
+Source: ros-humble-leo-desktop
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/leo_desktop
+Standards-Version: 3.9.2
+
+Package: ros-humble-leo-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-leo, ros-humble-leo-viz, ros-humble-ros-workspace
+Description: Metapackage of software for operating Leo Rover from ROS desktop
